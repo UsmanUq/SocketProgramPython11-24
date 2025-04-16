@@ -155,11 +155,9 @@ This project is open source under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-built for csc319 32868
+built for CN in 5th semester 32868
 Feel free to fork, contribute, or report bugs!
 
-```
+
 
 ---
-
-Let me know if you'd like a version with badges (build, license, stars) or want to auto-generate a license file too! 😊
