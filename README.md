@@ -42,11 +42,17 @@ A real-time, multi-client chat application built in Python using sockets and thr
 |  Client 2   |<----->|             |
 +-------------+       |             |
                       |             |
-+-------------+       +-------------+
-|  Client 3   |<----->  Handles:
-+-------------+           • Broadcasting
-                         • Private Messaging
-                         • Logging History
++-------------+       |             |           
+|  Client n  |<-----> |             |
++-------------+       |             |              
+                      |             |
+                      |             |
+                      +-------------+  
+Sever Handles:
+              • Broadcasting
+              • Private Messaging
+              • Logging History
+                  
 ```
 
 ---
@@ -71,13 +77,8 @@ A real-time, multi-client chat application built in Python using sockets and thr
 ### ✅ Prerequisites
 
 - Python 3.7+
-- OS: Windows/Linux/macOS
 
-### 📁 Clone the repository
-
-```bash
-git clone https://github.com/your-username/python-socket-chat-app.git
-cd python-socket-chat-app
+  
 ```
 
 ---
